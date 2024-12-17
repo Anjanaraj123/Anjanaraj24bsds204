@@ -33,23 +33,31 @@ HOW IT WORKS:
 
 COMMANDS USED:
 - First you create a new directory in your directory using the command
+
     mkdir cache_data
+
     ls
-   check its is created or not using ls command 
+   check its is created or not using ls command
+ 
 - Next you create a subdirectory in that current directory using the command 
     mkdir January February ....
-    ls 
+
+    ls
+ 
 - Rename and move the file using the command
+
      touch cachehitlogs1 ......
      cd January
      ls
      mv ./January/cachehitlogs February
      ls
 -Navigating and listing files
+
      cd ..
      cd cache_data
      ls 
 Permission file management:
+
      create file as  "cache_config.txt" using the command 
          touch cache_config.txt
          cd cache_config.txt
@@ -57,9 +65,14 @@ Permission file management:
            chmod 744 cache_config.txt
      checking
          ls -l
-Network checking 
+
+Network checking
+ 
     ping google.com
+
 to check history
+
     history
-File sorting 
+File sorting
+ 
      sort cache_data
